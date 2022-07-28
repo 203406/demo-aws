@@ -11,4 +11,8 @@ public class UserController {
     public String home(){
         return "Hi, my name is daniell";
     }
+    @GetMapping("me")
+    public String other() {
+        return "Hi, my name is jorge";
+    }
 }
